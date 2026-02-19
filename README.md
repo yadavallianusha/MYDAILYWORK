@@ -1,0 +1,2 @@
+# MYDAILYWORK
+Python Internship Tasks
