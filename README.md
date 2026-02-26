@@ -2,14 +2,14 @@ MYDAILYWORK - Python Internship Tasks
 
 
 # MYDAILYWORK – Python Internship Tasks
-This repository contains Python tasks completed as part of the MyDailyWork Internship Program (Day 5 of 30).
+This repository contains Python tasks completed as part of the MyDailyWork Internship Program (Day 6 of 30).
 
 ## Tasks Included
 - Task 1: To-Do List  
 - Task 2: Calculator  
 - Task 3: Password Generator  
 - Task 4: Weather Forecast  
-- Task 5: Quiz Game  
+- Task 5: Quiz Game
 
 ## Requirements
 - Python 3.x
@@ -28,4 +28,9 @@ This repository contains Python tasks completed as part of the MyDailyWork Inter
 ## Status
 ✔ Code pushed  
 ✔ README updated  
-✔ Day 5 tasks completed
+✔ Day 6 tasks completed
+## Day 6 Progress
+- Added `student_management.py`: list-based student management program
+- Used lists, dictionaries, loops, and conditional statements
+- Displayed student details with pass/fail logic
+- Task 6: Python Basics (Lists & Student Management)
