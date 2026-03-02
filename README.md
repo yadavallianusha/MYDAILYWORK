@@ -2,7 +2,7 @@ MYDAILYWORK - Python Internship Tasks
 
 
 # MYDAILYWORK – Python Internship Tasks
-This repository contains Python tasks completed as part of the MyDailyWork Internship Program (Day 7 of 30).
+This repository contains Python tasks completed as part of the MyDailyWork Internship Program (Day 10 of 30).
 
 ## Tasks Included
 - Task 1: To-Do List  
@@ -17,18 +17,27 @@ This repository contains Python tasks completed as part of the MyDailyWork Inter
 ## How to Run
 1. Clone the repository  
    `git clone https://github.com/yadavallianusha/MYDAILYWORK.git`
+## Project Structure
+2.MYDAILYWORK/
+├── Task1_TodoList/
+├── Task2_Calculator/
+├── Task3_PasswordGenerator/
+├── Task4_WeatherForecast/
+├── Task5_QuizGame/
+├── Task6_PythonBasics/
+└── README.md 
 
-2. Open any task folder  
+3. Open any task folder  
    Example: `Task1_TodoList`
 
-3. Run the Python file  
+4. Run the Python file  
    `python filename.py`  
-   (Example: `python todo.py`)
+   (Example: `python todo.py`)'
 
 ## Status
 ✔ Code pushed  
 ✔ README updated  
-✔ Day 7 tasks completed
+✔ Day 10 tasks completed
 ## Day 6 Progress
 - Added `student_management.py`: list-based student management program
 - Used lists, dictionaries, loops, and conditional statements
@@ -40,3 +49,5 @@ This repository contains Python tasks completed as part of the MyDailyWork Inter
 - Implemented a list-based student management program
 - Used Git and GitHub for regular commits and version control
 - No blockers faced during Week 1
+
+- 
