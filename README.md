@@ -1,53 +1,71 @@
-MYDAILYWORK - Python Internship Tasks
-
-
 # MYDAILYWORK – Python Internship Tasks
-This repository contains Python tasks completed as part of the MyDailyWork Internship Program (Day 10 of 30).
+
+This repository contains Python tasks completed as part of the MyDailyWork Internship Program (Day 13 of 30).
 
 ## Tasks Included
 - Task 1: To-Do List  
 - Task 2: Calculator  
-- Task 3: Password Generator
+- Task 3: Password Generator  
 - Task 4: Weather Forecast  
-- Task 5: Quiz Game
+- Task 5: Quiz Game  
+- Task 6: Python Basics (Lists & Student Management)
 
 ## Requirements
 - Python 3.x
 
 ## How to Run
+
 1. Clone the repository  
-   `git clone https://github.com/yadavallianusha/MYDAILYWORK.git`
+```
+git clone https://github.com/yadavallianusha/MYDAILYWORK.git
+```
+
+2. Navigate to the project folder  
+```
+cd MYDAILYWORK
+```
+
+3. Open any task folder  
+Example:
+```
+cd Task1_TodoList
+```
+
+4. Run the Python file  
+Example:
+```
+python todo.py
+```
+
 ## Project Structure
-2.MYDAILYWORK/
+```
+MYDAILYWORK/
 ├── Task1_TodoList/
 ├── Task2_Calculator/
 ├── Task3_PasswordGenerator/
 ├── Task4_WeatherForecast/
 ├── Task5_QuizGame/
 ├── Task6_PythonBasics/
-└── README.md 
-
-3. Open any task folder  
-   Example: `Task1_TodoList`
-
-4. Run the Python file  
-   `python filename.py`  
-   (Example: `python todo.py`)'
+└── README.md
+```
 
 ## Status
 ✔ Code pushed  
 ✔ README updated  
-✔ Day 10 tasks completed
-## Day 6 Progress
-- Added `student_management.py`: list-based student management program
-- Used lists, dictionaries, loops, and conditional statements
-- Displayed student details with pass/fail logic
-- Task 6: Python Basics (Lists & Student Management)
-## Week 1 Summary (Day 1–7)
-- Completed Python basics and hands-on tasks successfully
-- Practiced OOP concepts including inheritance
-- Implemented a list-based student management program
-- Used Git and GitHub for regular commits and version control
-- No blockers faced during Week 1
+✔ Day 13 tasks in progress  
 
-- 
+## Day 6 Progress
+- Added `student_management.py`: list-based student management program  
+- Used lists, dictionaries, loops, and conditional statements  
+- Displayed student details with pass/fail logic  
+
+## Week 1 Summary (Day 1–7)
+- Completed Python basics and hands-on tasks successfully  
+- Practiced OOP concepts including inheritance  
+- Implemented a list-based student management program  
+- Used Git and GitHub for regular commits and version control  
+- No blockers faced during Week 1  
+
+## Demo Video
+Quiz Game Demo:  
+https://drive.google.com/file/d/12MKOir4BVJOrwd6nBbDX6CRsOskekQWQ/view
