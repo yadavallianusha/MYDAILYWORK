@@ -1,6 +1,6 @@
 # MYDAILYWORK – Python Internship Tasks
 
-This repository contains Python tasks completed as part of the MyDailyWork Internship Program (Day 13 of 30).
+This repository contains Python tasks completed as part of the MyDailyWork Internship Program (Day 17 of 30).
 
 ## Tasks Included
 - Task 1: To-Do List  
@@ -52,7 +52,7 @@ MYDAILYWORK/
 ## Status
 ✔ Code pushed  
 ✔ README updated  
-✔ Day 13 tasks in progress  
+✔ Testing completed (Day 17 – QA) 
 
 ## Day 6 Progress
 - Added `student_management.py`: list-based student management program  
@@ -69,3 +69,17 @@ MYDAILYWORK/
 ## Demo Video
 Quiz Game Demo:  
 https://drive.google.com/file/d/12MKOir4BVJOrwd6nBbDX6CRsOskekQWQ/view
+
+## Testing (Day 17 – QA)
+
+Basic testing was performed on all Python projects to ensure they run correctly.
+
+Commands used:
+- python calculator.py
+- python quiz_game.py
+- python weather.py
+
+Result:
+✔ All programs executed successfully  
+✔ Outputs matched expected results  
+✔ No errors or blockers found
