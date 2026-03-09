@@ -1,6 +1,6 @@
 import requests   # Import requests library to make HTTP requests
 
-API_KEY = input("Enter YOUR_API_KEY: ")   # enter the api key
+API_KEY ="eb867404243498ab95344ec940642ba7"   # Your API key
 
 city = "Bangalore"  # city name
 
