@@ -1,4 +1,4 @@
-# MYDAILYWORK – Python Internship Tasks NENU
+# MYDAILYWORK – Python Internship Tasks
 
 This repository contains Python tasks completed as part of the MyDailyWork Internship Program (Day 17 of 30).
 
