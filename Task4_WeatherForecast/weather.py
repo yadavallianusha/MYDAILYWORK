@@ -1,5 +1,5 @@
 import requests   # Import requests library to make HTTP requests
-API_KEY ="eb867404243498ab95344ec940642ba7"   # Your API key
+API_KEY = "YOUR_API_KEY"  # Your API key
 city = "Bangalore"  # city name
 # Create the API request URL with city, API key, and metric units
 url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}&units=metric"
