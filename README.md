@@ -1,6 +1,6 @@
 # MYDAILYWORK – Python Internship Tasks
 
-This repository contains Python tasks completed as part of the MyDailyWork Internship Program (Day 17 of 30).
+This repository contains Python tasks completed as part of the MyDailyWork Internship Program (Day 18 of 30).
 
 ## Tasks Included
 - Task 1: To-Do List  
@@ -50,9 +50,10 @@ MYDAILYWORK/
 ```
 
 ## Status
-✔ Code pushed  
+✔ Code pushed to GitHub  
 ✔ README updated  
-✔ Testing completed (Day 17 – QA) 
+✔ Testing completed (Day 17 – QA)  
+✔ Code optimized and refactored (Day 18)
 
 ## Day 6 Progress
 - Added `student_management.py`: list-based student management program  
@@ -83,3 +84,16 @@ Result:
 ✔ All programs executed successfully  
 ✔ Outputs matched expected results  
 ✔ No errors or blockers found
+
+### Day 18 – Code Optimization
+Code quality improvements were made across all projects.
+
+Changes made:
+- Removed unused code
+- Refactored large code blocks into functions
+- Improved variable names
+- Added comments for better readability
+- Improved input validation
+- Cleaned and formatted code
+
+These improvements make the code easier to read and maintain.
