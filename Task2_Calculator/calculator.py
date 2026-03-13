@@ -1,4 +1,10 @@
-# Simple Calculator Program
+# Simple Calculator Program with Performance Check
+
+import time
+import psutil
+import os
+# Start timer
+start_time = time.time()
 # Function to perform calculation
 def calculate(num1, num2, choice):
     if choice == "1":
@@ -27,3 +33,13 @@ choice = input("Enter choice (1/2/3/4): ")
 # Call function
 result = calculate(num1, num2, choice)
 print("Result:", result)
+# End timer
+end_time = time.time()
+# Calculate execution time
+execution_time = end_time - start_time
+# Check memory usage
+process = psutil.Process(os.getpid())
+memory_usage = process.memory_info().rss / 1024 / 1024
+print("\nPerformance Metrics")
+print("Execution Time:", round(execution_time, 4), "seconds")
+print("Memory Usage:", round(memory_usage, 2), "MB")
