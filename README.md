@@ -1,6 +1,6 @@
 # MYDAILYWORK – Python Internship Tasks
 
-This repository contains Python tasks completed as part of the MyDailyWork Internship Program (Day 20 of 30).
+This repository contains Python tasks completed as part of the MyDailyWork Internship Program (Day 21 of 30).
 
 ## Tasks Included
 - Task 1: To-Do List  
@@ -111,8 +111,6 @@ This task helped improve collaboration and understanding of the GitHub review pr
 
 ## Demo Videos
 
-## Demo Videos
-
 Task 1 Demo:
 https://drive.google.com/file/d/xxxxxxxx/view
 
@@ -127,3 +125,20 @@ https://drive.google.com/file/d/xxxxxxxx/view
 
 Task 5 Demo:
 https://drive.google.com/file/d/xxxxxxxx/view
+
+## Day 21 – Performance Check
+
+Program Tested:
+Calculator (Python)
+
+Execution Time:
+≈ 0.000004 seconds
+
+Memory Usage:
+≈ 30 MB
+
+Observation:
+The calculator program performs basic arithmetic operations and executes almost instantly.
+
+Bottlenecks:
+No performance issues were observed because the program is lightweight.
