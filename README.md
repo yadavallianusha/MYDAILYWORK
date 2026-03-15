@@ -1,6 +1,6 @@
 # MYDAILYWORK – Python Internship Tasks
 
-This repository contains Python tasks completed as part of the MyDailyWork Internship Program (Day 22 of 30).
+This repository contains Python tasks completed as part of the MyDailyWork Internship Program (Day 23 of 30).
 
 ## Tasks Included
 
@@ -50,8 +50,9 @@ Task 6 – Python Basics
 Run the project quickly using these commands:
 
 git clone https://github.com/yadavallianusha/MYDAILYWORK.git
-cd MYDAILYWORK/Task2_Calculator
-python calculator.py
+cd MYDAILYWORK
+cd Task1_TodoList
+python todo.py
 
 ## How to Run
 
@@ -96,6 +97,8 @@ MYDAILYWORK/
 ✔ Demo videos recorded and uploaded (Day 20)
 ✔ Performance metrics measured and documented (Day 21)
 ✔ Documentation improved with Quick Start, features, and sample output (Day 22)
+✔ Security checks completed – secrets review and dependency vulnerability scan using Safety CLI (Day 23)
+
 
 ## Day 6 Progress
 
@@ -199,11 +202,6 @@ The calculator program performs basic arithmetic operations and executes almost 
 Bottlenecks:
 No performance issues were observed because the program is lightweight.
 
-## Author
-
-Yadavalli Anusha
-Python Internship – MyDailyWork Program
-GitHub: https://github.com/yadavallianusha
 
 ## Day 22 – Documentation Update
 
@@ -217,5 +215,27 @@ Updates made:
 * Added sample output for the calculator program
 * Organized project structure for better readability
 
-These updates make the project more user-friendly and easier for reviewers and recruiters to run.
+These updates make the project more user-friendly and easier for reviewers and recruiters to run. 
+
+## Day 23 – Security & Basic Hardening
+
+Security checks were performed on the project repository.
+
+Checks performed:
+- Reviewed all files to ensure no API keys, passwords, or secrets were committed
+- Scanned Python dependencies using the Safety CLI tool
+- Verified that no vulnerable packages were detected
+
+Result:
+✔ No secrets found in the repository  
+✔ Dependency security scan completed  
+✔ No known vulnerabilities detected
+
+These checks help ensure the project follows basic security best practices.
+
+## Author
+
+Yadavalli Anusha
+Python Internship – MyDailyWork Program
+GitHub: https://github.com/yadavallianusha
 
