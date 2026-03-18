@@ -17,8 +17,12 @@ def calculate(num1, num2, choice):
     else:
         return "Invalid choice"
 
-num1 = float(input("Enter first number: "))
-num2 = float(input("Enter second number: "))
+try:
+    num1 = float(input("Enter first number: "))
+    num2 = float(input("Enter second number: "))
+except ValueError:
+    print("Invalid input! Enter numbers only.")
+    exit()
 print("\nChoose operation")
 print("1. Addition")
 print("2. Subtraction")
