@@ -11,7 +11,11 @@ def generate_password(length):
         password += random.choice(characters)
     return password
 # Ask user for password length
-length = int(input("Enter password length: "))
+try:
+    length = int(input("Enter password length: "))
+except ValueError:
+    print("Enter a valid number!")
+    exit()
 # Generate password
 result = generate_password(length)
 print("Generated Password:", result)
