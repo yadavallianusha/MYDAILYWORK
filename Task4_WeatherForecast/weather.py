@@ -1,15 +1,37 @@
-import requests   # Import requests library to make HTTP requests
-API_KEY = "YOUR_API_KEY"  # Your API key
-city = "Bangalore"  # city name
-# Create the API request URL with city, API key, and metric units
+import requests  # For API request
+
+# Replace this with your real OpenWeather API key
+API_KEY = input("YOUR_API_KEY: ")
+
+# Take city input from user
+city = input("Enter city name: ").strip()
+
+# API URL
 url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}&units=metric"
-# Send GET request to the weather API
-res = requests.get(url)
-# Convert response data to JSON format
-data = res.json()
-# Check if the request was successful
-if res.status_code == 200:
-    print("City:", data["name"])  # Print city name
-    print("Temp:", data["main"]["temp"], "°C")  # Print temperature in Celsius
-else:
-    print("City not found")  # Error message if city is not found
+
+try:
+    # Send request
+    res = requests.get(url)
+    data = res.json()
+
+    # Success condition
+    if res.status_code == 200:
+        print("\n----- Weather Details -----")
+        print("City:", data["name"])
+        print("Temperature:", data["main"]["temp"], "°C")
+        print("Feels Like:", data["main"]["feels_like"], "°C")
+        print("Humidity:", data["main"]["humidity"], "%")
+        print("Weather:", data["weather"][0]["description"])
+
+    else:
+        # Error from API
+        if data.get("cod") == 401:
+            print("Error: Invalid API key. Please check your API key.")
+        elif data.get("cod") == "404":
+            print("Error: City not found. Please check spelling.")
+        else:
+            print("Error:", data.get("message", "Something went wrong"))
+
+# Network / connection error
+except requests.exceptions.RequestException:
+    print("Error: Unable to connect. Check your internet connection.")
