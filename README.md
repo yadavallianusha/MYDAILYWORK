@@ -1,6 +1,6 @@
 # MYDAILYWORK – Python Internship Tasks
 
-This repository contains Python tasks completed as part of the MyDailyWork Internship Program (Day 26 of 30).
+This repository contains Python tasks completed as part of the MyDailyWork Internship Program (Day 27 of 30).
 
 ## Tasks Included
 
@@ -101,6 +101,7 @@ MYDAILYWORK/
 ✔ Bug fixes and issue resolution completed (Day 24)  
 ✔ Final improvements implemented (Day 25)  
 ✔ Code polished and project finalized (Day 26)  
+✔ Final report prepared and submitted (Day 27)   
 
 
 ## Day 6 Progress
@@ -254,6 +255,31 @@ Result:
 ✔ All projects are clean and well-structured  
 ✔ No runtime errors found  
 ✔ Ready for final submission  
+
+
+## Day 27 – Final Report
+
+A final report was prepared summarizing the overall internship work and learning.
+
+Highlights:
+
+* Developed multiple Python projects including To-Do List, Calculator, Password Generator, Weather App, Quiz Game, and OOP programs  
+* Implemented input validation, error handling, and performance measurement  
+* Worked with APIs (OpenWeather) and handled real-time data  
+* Improved code quality through optimization and refactoring  
+* Gained hands-on experience in Python programming and problem-solving  
+
+Key Learning:
+
+* Strong understanding of Python fundamentals  
+* Experience with debugging and error handling  
+* Knowledge of API integration  
+* Improved documentation and project structuring skills  
+
+Links:
+
+* GitHub Repository: https://github.com/yadavallianusha/MYDAILYWORK  
+* Demo Video: https://drive.google.com/file/d/12MKOir4BVJOrwd6nBbDX6CRsOskekQWQ/view  
 
 ## Author
 
