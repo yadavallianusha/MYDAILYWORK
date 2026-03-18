@@ -1,5 +1,5 @@
 # Quiz Game Program
-# Function to load quiz questions
+
 def load_questions():
     return [
         {
@@ -18,23 +18,31 @@ def load_questions():
             "answer": "A"
         }
     ]
-# Function to play the quiz
+
 def play_quiz():
     print("\nWelcome to the Quiz Game ")
     print("Rules:")
     print("1. Each correct answer gives 1 point")
     print("2. No negative marking")
     print("3. Choose A, B, C or D\n")
+
     questions = load_questions()
     score = 0
-    # Loop through each question
+
     for q in questions:
         print(q["question"])
-        # Show options
+
         for option in q["options"]:
             print(option)
-        # Get user answer
-        user_answer = input("Enter your answer (A/B/C/D): ").upper()
+
+        # Input validation
+        while True:
+            user_answer = input("Enter your answer (A/B/C/D): ").upper()
+            if user_answer in ["A", "B", "C", "D"]:
+                break
+            else:
+                print("Please enter a valid option (A/B/C/D)")
+
         # Check answer
         if user_answer == q["answer"]:
             print("Correct!\n")
@@ -42,17 +50,18 @@ def play_quiz():
         else:
             print("Incorrect!")
             print("Correct Answer:", q["answer"], "\n")
-    # Show final score
+
     print("Quiz Completed!")
     print("Your Final Score:", score, "/", len(questions))
-    # Performance message
+
     if score == len(questions):
         print("Excellent Performance ")
     elif score >= len(questions) // 2:
         print("Good Job ")
     else:
         print("Better Luck Next Time ")
-# Main program loop
+
+# Main loop
 while True:
     play_quiz()
     again = input("\nDo you want to play again? (yes/no): ").lower()
