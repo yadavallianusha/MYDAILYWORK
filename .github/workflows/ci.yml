@@ -1,5 +1,4 @@
 name: Python CI
-name: Python CI
 
 on: [push]
 
@@ -8,45 +7,21 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-    - name: Setup Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.10'
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
 
-    - name: Install dependencies
-      run: pip install psutil
+      - name: Install dependencies
+        run: pip install psutil
 
-    - name: Run all Python files
-      run: |
-        python Task1_TodoList/todo.py
-        python Task2_Calculator/calculator.py
-        python Task3_PasswordGenerator/password.py
-        python Task4_WeatherForecast/weather.py
-        python Task5_QuizGame/quiz_game.py
-on: [push]
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
-
-    - name: Setup Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.10'
-
-    - name: Install dependencies
-      run: pip install psutil
-
-    - name: Run Python file
-      run:  python Task1_TodoList/todo.py
-      run: python Task2_Calculator/calculator.py
-      run: python Task3_PasswordGenerator/password.py
-      run: python Task4_WeatherForecast/weather.py
-      run: python Task5_QuizGame/quiz_game.py
+      - name: Run all Python files
+        run: |
+          python Task1_TodoList/todo.py
+          python Task2_Calculator/calculator.py
+          python Task3_PasswordGenerator/password.py
+          python Task4_WeatherForecast/weather.py
+          python Task5_QuizGame/quiz_game.py
