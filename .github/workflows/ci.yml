@@ -19,4 +19,8 @@ jobs:
       run: pip install psutil
 
     - name: Run Python file
-      run: python Task2_Calculator/calculator.py
+      run:  python Task1_TodoList/todo.py
+        python Task2_Calculator/calculator.py
+        python Task3_PasswordGenerator/password.py
+        python Task4_WeatherForecast/weather.py
+        python Task5_QuizGame/quiz_game.py
